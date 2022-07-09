@@ -1,0 +1,12 @@
+#nav {
+  font-family: monospace, 'Courier New', Courier;
+  font-size: 1.8em;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: block;
+  max-height: 3rem;
+  position: fixed;
+  width: 100vw;
+  height: 4rem;
+  z-index: 1;
+}

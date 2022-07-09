@@ -1,0 +1,40 @@
+.heroes {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
+  padding: 1rem;
+  position: absolute;
+  width: 52rem;
+  left: 34vw;
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.copy {
+  border-radius: 0;
+  max-width: fit-content;
+}
+
+.btns-list {
+  text-align: left;
+}
+
+#btns {
+  margin-right: 4px;
+  background-color: #2D3047;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  padding: 6px 8px; 
+}
+
+#btns:active {
+  background-color: #2D304750;
+}
+
+#btns:hover {
+  text-decoration: underline;
+}
