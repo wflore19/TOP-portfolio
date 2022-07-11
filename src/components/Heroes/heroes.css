@@ -2,15 +2,15 @@
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
   padding: 1rem;
-  position: absolute;
   width: 52rem;
-  left: 34vw;
-  top: 4rem;
   display: flex;
   flex-direction: column;
   height: fit-content;
-  z-index: -1;
   border-radius: 8px;
+  margin-bottom: 1rem;
+  /* position: absolute;
+  left: 34vw;
+  top: 4rem; */
 }
 
 .copy {
@@ -28,7 +28,8 @@
   border-radius: 6px;
   color: white;
   border: none;
-  padding: 6px 8px; 
+  padding: 10px 8px;
+  text-decoration: none;
 }
 
 #btns:active {

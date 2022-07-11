@@ -3,12 +3,12 @@ import './navbar.css';
 export default function NavBar() {
   return (
     <ul id="nav-group">
-      <li className="nav-item">Home</li>
-      <li className="nav-item">About</li>
-      <li className="nav-item">Skills</li>
-      <li className="nav-item">Projects</li>
-      <li className="nav-item">Resume</li>
-      <li className="nav-item">Contact</li>
+      <a className="nav-item" href="">Home</a>
+      <a className="nav-item" href="">About</a>
+      <a className="nav-item" href="">Skills</a>
+      <a className="nav-item" href="">Projects</a>
+      <a className="nav-item" href="">Resume</a>
+      <a className="nav-item" href="">Contact</a>
     </ul>
   )
 }

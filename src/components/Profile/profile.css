@@ -1,26 +1,38 @@
 #profile {
-  max-width: 20rem;
+  text-align: center;
+  width: max(14rem, 12rem);
+  height: fit-content;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
   border-radius: 8px;
-  position: fixed;
   padding: 1rem;
+  margin-right: 1rem;
+  position:sticky;
+  top: 4rem;
+  /* position: absolute;
   top: 4rem;
   left: 20vw;
-  bottom: 6rem;
+  bottom: 6rem; */
 }
 
 img {
   max-width: 12rem;
-  border-radius: 50%;
-  margin-bottom: 1rem;
+  margin-bottom: .9rem;
 }
 
 .name {
   font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .title {
-  font-weight: 300;
-  font-size: 14-px;
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.cr {
+  padding-top: .2rem;
+  padding-bottom: 8rem;
+  font-size: .7rem;
+  font-weight: lighter;
 }
