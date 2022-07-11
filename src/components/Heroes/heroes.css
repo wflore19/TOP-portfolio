@@ -2,12 +2,9 @@
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
   padding: 1rem;
-  width: 52rem;
-  display: flex;
-  flex-direction: column;
+  width: max(52rem, 48rem);
   height: fit-content;
   border-radius: 8px;
-  margin-bottom: 1rem;
   /* position: absolute;
   left: 34vw;
   top: 4rem; */
@@ -15,14 +12,14 @@
 
 .copy {
   border-radius: 0;
-  max-width: fit-content;
+  min-width: 50rem;
 }
 
 .btns-list {
   text-align: left;
 }
 
-#btns {
+.btns {
   margin-right: 4px;
   background-color: #2D3047;
   border-radius: 6px;
@@ -32,10 +29,12 @@
   text-decoration: none;
 }
 
-#btns:active {
+.btns:active {
   background-color: #2D304750;
+  color: #fff;
 }
 
-#btns:hover {
+.btns:hover {
   text-decoration: underline;
+  color: #fff;
 }

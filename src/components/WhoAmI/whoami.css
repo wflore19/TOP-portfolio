@@ -2,14 +2,13 @@
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
   padding: 24px 16px 16px 16px;
-  width: 52rem;
-  font-size: 22px;
-  font-weight: bold;
+  width: max(52rem, 48rem);
   height: fit-content;
+  font-size: 1.38rem;
+  font-weight: bold;
   border-radius: 8px;
   font-family: monospace, 'Courier New', Courier;
   text-align: left;
-  margin-bottom: 1rem;
   color: #2D3047;
   /* position: absolute;
   left: 34vw;
