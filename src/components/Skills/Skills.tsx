@@ -1,58 +1,58 @@
 import './skills.css';
-import { FaFigma } from 'react-icons/fa';
-import { SiAdobepremierepro } from 'react-icons/si';
-import { SiAdobephotoshop } from 'react-icons/si';
-import { FaGitAlt } from 'react-icons/fa';
-import { SiWebpack } from 'react-icons/si';
-import { BiCodeAlt } from 'react-icons/bi';
-import { FaDatabase } from 'react-icons/fa';
-import { FaTools } from 'react-icons/fa';
-import { SiLivejournal } from 'react-icons/si';
-import { SiJavascript } from 'react-icons/si';
-import { SiTypescript } from 'react-icons/si';
-import { FaHtml5 } from 'react-icons/fa';
-import { IoLogoCss3 } from 'react-icons/io';
-import { SiPython } from 'react-icons/si';
-import { SiCplusplus } from 'react-icons/si';
-import { SiReact } from 'react-icons/si';
-import { FaNodeJs } from 'react-icons/fa'
-import { SiMongodb } from 'react-icons/si'
-import { FaBootstrap } from 'react-icons/fa'
-import { SiJest } from 'react-icons/si'
+import code from './icons/code.svg';
+import js from './icons/javascript.svg';
+import ts from './icons/typescript.svg';
+import html from './icons/html5.svg';
+import css from './icons/css3.svg';
+import python from './icons/python.svg';
+import cplusplus from './icons/cplusplus.svg';
+import database from './icons/database.svg';
+import react from './icons/react.svg';
+import nodejs from './icons/nodejs.svg';
+import mongodb from './icons/mongodb.svg';
+import bootstrap from './icons/bootstrap.svg';
+import jest from './icons/jest.svg';
+import tools from './icons/nodejs.svg';
+import git from './icons/git.svg';
+import webpack from './icons/webpack.svg';
+import creative from './icons/creative.svg';
+import figma from './icons/figma.svg';
+import premierepro from './icons/adobepremierepro.svg';
+import photoshop from './icons/adobephotoshop.svg';
 
 export default function Skills() {
   return (
     <div className='skills'>Skill<span style={{color: 'white', backgroundColor: '#2D3047', borderRadius: 4, padding: 3, margin: 3}}>s</span>
       <div className="skills-array">
         <ul className="languages">
-          <li className="list-title"><BiCodeAlt />Languages</li>
-          <li><SiJavascript /> Javascript</li>
-          <li><SiTypescript /> Typescript</li>
-          <li><FaHtml5 /> HTML5</li>
-          <li><IoLogoCss3 /> CSS3</li>
-          <li><SiPython /> Python</li>
-          <li><SiCplusplus /> C++</li>
+          <li className="list-title"><img src={code} alt="code" style={{width:20, margin:0}} />Languages</li>
+          <li><img src={js} alt="code" style={{width:20, margin:0}} /> Javascript</li>
+          <li><img src={ts} alt="code" style={{width:20, margin:0}} /> Typescript</li>
+          <li><img src={html} alt="code" style={{width:20, margin:0}} /> HTML5</li>
+          <li><img src={css} alt="code" style={{width:20, margin:0}} /> CSS3</li>
+          <li><img src={python} alt="code" style={{width:20, margin:0}} /> Python</li>
+          <li><img src={cplusplus} alt="code" style={{width:20, margin:0}} /> C++</li>
         </ul>
         <ul className="frameworks-databases">
-          <li className="list-title"><FaDatabase />Frameworks/Databases</li>
-          <li><SiReact /> React.js</li>
-          <li><FaNodeJs /> Node.js/Express.js</li>
-          <li><SiMongodb /> MongoDB/Mongoose</li>
-          <li><FaBootstrap /> Bootstrap</li>
-          <li><SiJest /> Jest</li>
+          <li className="list-title"><img src={database} alt="code" style={{width:20, margin:0}} />Frameworks/Databases</li>
+          <li><img src={react} alt="code" style={{width:20, margin:0}} /> React.js</li>
+          <li><img src={nodejs} alt="code" style={{width:20, margin:0}} /> Node.js/Express.js</li>
+          <li><img src={mongodb} alt="code" style={{width:20, margin:0}} /> MongoDB/Mongoose</li>
+          <li><img src={bootstrap} alt="code" style={{width:20, margin:0}} /> Bootstrap</li>
+          <li><img src={jest} alt="code" style={{width:20, margin:0}} /> Jest</li>
         </ul>
         <ul className="tools">
-          <li className="list-title"><FaTools />Tools</li>
-          <li><FaGitAlt /> Git</li>
-          <li><SiWebpack /> Webpack</li>
+          <li className="list-title"><img src={tools} alt="code" style={{width:20, margin:0}} />Tools</li>
+          <li><img src={git} alt="code" style={{width:20, margin:0}} /> Git</li>
+          <li><img src={webpack} alt="code" style={{width:20, margin:0}} /> Webpack</li>
           <li>VS Code</li>
           <li>Linux</li>
         </ul>
         <ul className="creative-tools">
-          <li className='list-title'><SiLivejournal />Creative Tools</li>
-          <li><FaFigma /> Figma</li>
-          <li><SiAdobepremierepro /> Premiere Pro</li>
-          <li><SiAdobephotoshop /> Photoshop</li>
+          <li className='list-title'><img src={creative} alt="code" style={{width:20, margin:0}} />Creative Tools</li>
+          <li><img src={figma} alt="code" style={{width:20, margin:0}} /> Figma</li>
+          <li><img src={premierepro} alt="code" style={{width:20, margin:0}} /> Premiere Pro</li>
+          <li><img src={photoshop} alt="code" style={{width:20, margin:0}} /> Photoshop</li>
           <li>Final Cut Pro</li>
           <li>Pixelmator Pro</li>
           <li>Paper</li>
