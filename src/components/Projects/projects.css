@@ -4,7 +4,7 @@
   padding: 24px 16px 16px 16px;
   min-width: var(--mainframe-width);
   width: min(52rem, 75vw);
-  height: 100rem;
+  height: fit-content;
   font-size: 1.38rem;
   font-weight: bold;
   border-radius: 8px;
