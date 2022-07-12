@@ -1,8 +1,9 @@
 .skills {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
-  padding: 24px 16px 16px 16px;
-  width: max(52rem, 48rem);
+  padding: 1.5rem 1rem;
+  min-width: var(--mainframe-width);
+  width: min(52rem, 75vw);
   height: fit-content;
   font-size: 1.38rem;
   font-weight: bold;
@@ -10,6 +11,7 @@
   font-family: monospace, 'Courier New', Courier;
   text-align: left;
   color: #2D3047;
+  scroll-margin-top: 4rem;
 }
 
 .skills-array {
@@ -26,12 +28,15 @@
   border-radius: 6px;
   padding: 1rem 2rem;
   margin: 1rem;
-  width: 45%;
+  width: clamp(18rem, 15vw, 50vw);
   height: 18rem;
+  text-align: left;
+  list-style: none;
 }
 
 .list-title {
   list-style: none;
+  text-align: left;
   font-size: 1.3rem;
   text-decoration: underline;
   padding-bottom: 1rem;
@@ -40,4 +45,8 @@
 
 li {
   font-size: 1.1rem;
+}
+
+.poo {
+  font-weight: normal;
 }
