@@ -2,15 +2,21 @@
   /* border: 1px solid red; */
 }
 
+:root {
+  --mainframe-width: 20rem;
+}
+
 html {
-  background-color: #F3F2EF;
-  height: 100%;
-  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
-body {
-  min-height: 100%;
-  padding: 0;
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .App {
@@ -21,4 +27,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  min-width: 100%;
+  width: 100vw;
 }
