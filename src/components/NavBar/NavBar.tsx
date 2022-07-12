@@ -4,34 +4,28 @@ function NavBar() {
 
   function handleLinkTouch(e: any) {
     if (e.target.textContent === "Home") {
-      // @ts-ignore: Object is possibly 'null'.
       document
-        .querySelector(".heroes")
+        .querySelector(".heroes")!
         .scrollIntoView({behavior:"smooth"});
     } else if(e.target.textContent === "About") {
-      // @ts-ignore: Object is possibly 'null'.
       document
-        .querySelector(".whoami")
+        .querySelector(".whoami")!
         .scrollIntoView({behavior:"smooth"}); 
     } else if (e.target.textContent === "Skills"){
-      // @ts-ignore: Object is possibly 'null'.
       document
-        .querySelector(".skills")
+        .querySelector(".skills")!
         .scrollIntoView({behavior:"smooth"});
     } else if (e.target.textContent === "Projects"){
-      // @ts-ignore: Object is possibly 'null'.
       document
-        .querySelector(".projects")
+        .querySelector(".projects")!
         .scrollIntoView({behavior:"smooth"});
     } else if (e.target.textContent === "Resume"){
-      // @ts-ignore: Object is possibly 'null'.
       document
-        .querySelector(".projects")
+        .querySelector(".projects")!
         .scrollIntoView({behavior:"smooth"});
     } else if (e.target.textContent === "Contact"){
-      // @ts-ignore: Object is possibly 'null'.
       document
-        .querySelector(".whoami")
+        .querySelector(".whoami")!
         .scrollIntoView({behavior:"smooth"});
     }
   }
