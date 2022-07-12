@@ -1,8 +1,9 @@
 .whoami {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
-  padding: 24px 16px 16px 16px;
-  width: max(52rem, 48rem);
+  padding: 1.5rem 1rem;
+  min-width: var(--mainframe-width);
+  width: min(52rem, 75vw);
   height: fit-content;
   font-size: 1.38rem;
   font-weight: bold;
@@ -10,6 +11,7 @@
   font-family: monospace, 'Courier New', Courier;
   text-align: left;
   color: #2D3047;
+  scroll-margin-top: 4rem;
   /* position: absolute;
   left: 34vw;
   top: 38rem; */
@@ -21,6 +23,7 @@
   font-weight: normal;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding: 0 2rem 0 0;
 }
 
 /* .highlight {
