@@ -11,6 +11,9 @@
   color: rgb(112, 112, 112);
   margin: 8px 0 8px 0;
   font-weight: bold;
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #11150150;
 }
 
 .nav-item:hover {
