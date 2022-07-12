@@ -2,15 +2,16 @@
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
   padding: 24px 16px 16px 16px;
-  width: max(52rem, 48rem);
-  height: fit-content;
+  min-width: var(--mainframe-width);
+  width: min(52rem, 75vw);
+  height: 100rem;
   font-size: 1.38rem;
   font-weight: bold;
   border-radius: 8px;
   font-family: monospace, 'Courier New', Courier;
   text-align: left;
   color: #2D3047;
-  margin-bottom: 1rem;
+  scroll-margin-top: 4rem;
 }
 
 .txt {
