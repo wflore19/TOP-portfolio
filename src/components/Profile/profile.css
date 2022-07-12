@@ -1,6 +1,8 @@
 #profile {
+  /* visibility: hidden; */
   text-align: center;
-  width: max(14rem, 12rem);
+  min-width: 8rem;
+  width: min(14rem, 50%);
   height: fit-content;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
@@ -15,20 +17,21 @@
 }
 
 img {
-  height: 12rem;
-  width: 12rem;
+  max-height: 12rem;
+  height: min(14rem, 100%);
+  max-width: 12rem;
+  width: min(14rem, 100%);
   margin-bottom: .9rem;
 }
 
 .name {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: clamp(.8rem, 2vw, 1.2rem);
 }
 
 .title {
   font-weight: 400;
-  font-size: .9rem;
-  margin-bottom: .5rem;
+  font-size: clamp(.2rem, 1.5vw, .9rem);
 }
 
 .cr {
@@ -36,4 +39,11 @@ img {
   padding-bottom: 8rem;
   font-size: .7rem;
   font-weight: lighter;
+}
+
+@media (max-width: 688px) {
+  #profile {
+    position: fixed;
+    display: none;
+  }
 }
