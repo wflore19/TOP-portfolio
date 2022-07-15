@@ -1,44 +1,44 @@
 .heroes {
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
-  padding: 1.5rem 1rem;
-  min-width: var(--mainframe-width);
-  width: min(52rem, 75vw);
-  height: fit-content;
-  border-radius: 8px;
-  scroll-margin-top: 4rem;
-  /* position: absolute;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
+	padding: 1.5rem 1rem;
+	min-width: var(--mainframe-width);
+	width: min(52rem, 75vw);
+	height: fit-content;
+	border-radius: 8px;
+	scroll-margin-top: 4rem;
+	/* position: absolute;
   left: 34vw;
   top: 4rem; */
 }
 
 .copy {
-  border-radius: 6px;
-  min-width: 100%;
+	border-radius: 6px;
+	min-width: 100%;
 }
 
 .btns-list {
-  text-align: left;
+	text-align: left;
 }
 
 .btns {
-  width: 2rem;
-  font-size: clamp(12px, 3.5vw, 1rem); 
-  margin-right: 4px;
-  background-color: #2D3047;
-  border-radius: 6px;
-  color: white;
-  border: none;
-  padding: 10px 8px;
-  text-decoration: none;
+	width: 2rem;
+	font-size: clamp(12px, 3.5vw, 1rem);
+	margin-right: 4px;
+	background-color: var(--primary-color);
+	border-radius: 6px;
+	color: white;
+	border: none;
+	padding: 10px 8px;
+	text-decoration: none;
 }
 
 .btns:active {
-  background-color: #2D304750;
-  color: #fff;
+	background-color: #2d304750;
+	color: #fff;
 }
 
 .btns:hover {
-  text-decoration: underline;
-  color: #fff;
+	text-decoration: underline;
+	color: #fff;
 }
