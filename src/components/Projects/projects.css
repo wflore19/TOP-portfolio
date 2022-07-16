@@ -100,13 +100,13 @@
 .twitter-gif {
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
 		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-	width: clamp(15rem, 55vw, 35rem);
+	width: clamp(15rem, 55vw, 45rem);
 	max-height: 25rem;
-	max-width: 33rem;
+	max-width: 45rem;
 	display: flex;
 	margin: auto;
 	margin-bottom: 1.5rem;
-	aspect-ratio: 16/9;
+	object-fit: contain;
 }
 .heru {
 	border-bottom: 1px solid rgb(233, 233, 233);
