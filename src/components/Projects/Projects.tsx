@@ -18,21 +18,21 @@ export default function Projects() {
 			</span>
 			<Project
 				logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/934px-Twitter-logo.svg.png"
-				title="Twitter Clone"
+				title="Twitter 2.0"
 				madeWith="Next.js, React, Typescript, Sanity, Tailwindcss"
-				description="Created a clone of the popular social app Twitter. I added tweet, sign in, and comment funtionality."
+				description="Clone of the popular social app Twitter. It includes tweets, sign in, and comment funtionality."
 				gif="https://media.giphy.com/media/tSOPUnPzbxAUVZsUjt/giphy.gif"
 				demo="https://twitter-2-0-nu.vercel.app/"
 				github="https://github.com/will-flores1/twitter-2.0"
 			/>
 			<Project
-				logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/934px-Twitter-logo.svg.png"
-				title="Twitter Clone"
+				logo="https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png"
+				title="Medium 2.0"
 				madeWith="Next.js, React, Typescript, Sanity, Tailwindcss"
-				description="Created a clone of the popular social app Twitter. I added tweet, sign in, and comment funtionality."
+				description="Clone of the popular blogging app Medium. The purpose of this website is to practice server-side rendering and data fetching with Next.js framework. Deployed with Vercel."
 				gif="https://media.giphy.com/media/tSOPUnPzbxAUVZsUjt/giphy.gif"
 				demo="https://twitter.com"
-				github="https://github.com/will-flores1/twitter-2.0"
+				github="https://github.com/will-flores1/medium-2.0"
 			/>
 		</div>
 	);
