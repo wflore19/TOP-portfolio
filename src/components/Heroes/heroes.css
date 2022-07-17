@@ -7,11 +7,16 @@
 	height: fit-content;
 	border-radius: 8px;
 	scroll-margin-top: 4rem;
+	margin-right: 1rem;
 	/* position: absolute;
   left: 34vw;
   top: 4rem; */
 }
-
+.heading {
+	margin-bottom: 1.5rem;
+	margin-top: 2.5rem;
+	color: var(--primary-color);
+}
 .copy {
 	border-radius: 6px;
 	min-width: 100%;
