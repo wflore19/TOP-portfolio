@@ -1,7 +1,7 @@
 .heroes {
 	background-color: #fff;
 	box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
-	padding: 1.5rem 1rem;
+	padding: 1rem 1rem;
 	min-width: var(--mainframe-width);
 	width: min(52rem, 75vw);
 	height: fit-content;
@@ -13,9 +13,10 @@
   top: 4rem; */
 }
 .heading {
-	margin-bottom: 1.5rem;
-	margin-top: 2.5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 	color: var(--primary-color);
+	font-size: 4vw;
 }
 .copy {
 	border-radius: 6px;
@@ -23,6 +24,7 @@
 }
 
 .btns-list {
+	padding: 1rem 0;
 	text-align: left;
 }
 
