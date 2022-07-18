@@ -2,6 +2,7 @@
 	background-color: #fff;
 	box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
 	padding: 1.5rem 1rem;
+	margin-bottom: 1rem;
 	min-width: var(--mainframe-width);
 	width: min(52rem, 75vw);
 	height: fit-content;
@@ -12,9 +13,6 @@
 	text-align: left;
 	color: #2d3047;
 	scroll-margin-top: 4rem;
-	/* position: absolute;
-  left: 34vw;
-  top: 38rem; */
 }
 
 .text {
