@@ -12,7 +12,7 @@ function NavBar() {
 			document
 				.querySelector(".projects")!
 				.scrollIntoView({ behavior: "smooth" });
-		} else if (e.target.textContent === "Experience") {
+		} else if (e.target.textContent === "Resume") {
 			document
 				.querySelector(".experience")!
 				.scrollIntoView({ behavior: "smooth" });
@@ -36,7 +36,7 @@ function NavBar() {
 				Projects
 			</button>
 			<button className="nav-item" onClick={handleLinkTouch}>
-				Experience
+				Resume
 			</button>
 			<button className="nav-item" onClick={handleLinkTouch}>
 				Contact
