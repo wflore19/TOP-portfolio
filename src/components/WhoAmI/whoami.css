@@ -1,29 +1,30 @@
 .whoami {
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
-  padding: 1.5rem 1rem;
-  min-width: var(--mainframe-width);
-  width: min(52rem, 75vw);
-  height: fit-content;
-  font-size: 1.38rem;
-  font-weight: bold;
-  border-radius: 8px;
-  font-family: monospace, 'Courier New', Courier;
-  text-align: left;
-  color: #2D3047;
-  scroll-margin-top: 4rem;
-  /* position: absolute;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
+	padding: 1.5rem 1rem;
+	min-width: var(--mainframe-width);
+	width: min(52rem, 75vw);
+	height: fit-content;
+	font-size: 1.7rem;
+	font-weight: bold;
+	border-radius: 8px;
+	font-family: monospace, "Courier New", Courier;
+	text-align: left;
+	color: #2d3047;
+	scroll-margin-top: 4rem;
+	/* position: absolute;
   left: 34vw;
   top: 38rem; */
 }
 
 .text {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0 2rem 0 0;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0 2rem 0 0;
 }
 
 /* .highlight {
@@ -36,27 +37,27 @@
 } */
 
 mark {
-  -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
-          animation: 1.5s highlight 1.5s 1 normal forwards;
-  background-color: none;
-  background: linear-gradient(90deg, #ffd500 50%, rgba(255, 255, 255, 0) 50%);
-  background-size: 200% 100%;
-  background-position: 100% 0;
-  transform: rotate(4deg);
-  border-radius: 20% 40% 20% 24%;
-  padding: 5px 3px 3px 5px;
-  margin-left: -2px;
-  margin-right: -2px;
+	-webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+	animation: 1.5s highlight 1.5s 1 normal forwards;
+	background-color: none;
+	background: linear-gradient(90deg, #ffd500 50%, rgba(255, 255, 255, 0) 50%);
+	background-size: 200% 100%;
+	background-position: 100% 0;
+	transform: rotate(4deg);
+	border-radius: 20% 40% 20% 24%;
+	padding: 5px 3px 3px 5px;
+	margin-left: -2px;
+	margin-right: -2px;
 }
 
 @-webkit-keyframes highlight {
-  to {
-    background-position: 0 0;
-  }
+	to {
+		background-position: 0 0;
+	}
 }
 
 @keyframes highlight {
-  to {
-    background-position: 0 0;
-  }
+	to {
+		background-position: 0 0;
+	}
 }
