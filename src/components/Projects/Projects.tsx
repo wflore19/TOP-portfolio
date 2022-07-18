@@ -20,7 +20,7 @@ export default function Projects() {
 				logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/934px-Twitter-logo.svg.png"
 				title="Twitter 2.0"
 				madeWith="Next.js, React, Typescript, Sanity, Tailwindcss"
-				description="Clone of the popular social app Twitter. It includes tweets, sign in, and comment funtionality."
+				description="I built this project as a intro to auth and data fetching. Clone of the popular social app Twitter. It includes tweets, sign in, and comment funtionality."
 				gif="https://media.giphy.com/media/tSOPUnPzbxAUVZsUjt/giphy.gif"
 				demo="https://twitter-2-0-nu.vercel.app/"
 				github="https://github.com/will-flores1/twitter-2.0"
