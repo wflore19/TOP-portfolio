@@ -4,10 +4,12 @@ import "./heroes.css";
 export default function Heroes() {
 	return (
 		<div className="heroes">
+			<hr />
 			{/* <img src={imposter} alt="img" className="copy" /> */}
 			<h1 className="heading">
 				Hi I'm Wilfredo 👋​, a web developer from Maryland
 			</h1>
+			<hr />
 			<div className="btns-list">
 				<a
 					className="btns"
