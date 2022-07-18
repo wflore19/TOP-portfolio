@@ -29,9 +29,9 @@ export default function Projects() {
 				logo="https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png"
 				title="Medium 2.0"
 				madeWith="Next.js, React, Typescript, Sanity, Tailwindcss"
-				description="Clone of the popular blogging app Medium. The purpose of this website is to practice server-side rendering and data fetching with Next.js framework. Deployed with Vercel."
-				gif="https://media.giphy.com/media/tSOPUnPzbxAUVZsUjt/giphy.gif"
-				demo="https://twitter.com"
+				description="Clone of the popular blogging app Medium. The purpose of this project is to practice server-side rendering, data fetching, and form validation with Next.js and Sanity CMS. Deployed with Vercel."
+				gif="https://media.giphy.com/media/meblGF6wWnHssANkdg/giphy.gif"
+				demo="https://medium-2-0-sooty.vercel.app/"
 				github="https://github.com/will-flores1/medium-2.0"
 			/>
 		</div>
