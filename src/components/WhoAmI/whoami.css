@@ -62,3 +62,9 @@ mark {
 		background-position: 0 0;
 	}
 }
+
+@media (max-width: 688px) {
+	.whoami {
+		scroll-margin-top: 6rem;
+	}
+}

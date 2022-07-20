@@ -34,3 +34,9 @@
 	color: inherit;
 	text-decoration: none;
 }
+
+@media (max-width: 688px) {
+	.experience {
+		scroll-margin-top: 6rem;
+	}
+}

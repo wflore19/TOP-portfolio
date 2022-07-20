@@ -112,3 +112,9 @@
 	border-bottom: 1px solid rgb(233, 233, 233);
 	margin: 1rem 0;
 }
+
+@media (max-width: 688px) {
+	.projects {
+		scroll-margin-top: 6rem;
+	}
+}

@@ -54,3 +54,9 @@ li {
 .poo {
 	font-weight: normal;
 }
+
+@media (max-width: 688px) {
+	.skills {
+		scroll-margin-top: 6rem;
+	}
+}
