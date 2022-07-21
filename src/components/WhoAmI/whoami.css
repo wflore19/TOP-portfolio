@@ -26,6 +26,7 @@
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	padding: 0 2rem 0 0;
+	line-height: 1.5rem;
 }
 
 /* .highlight {
@@ -61,4 +62,11 @@ mark {
 	to {
 		background-position: 0 0;
 	}
+}
+
+.linkedText {
+	text-decoration: none;
+}
+.linkedText:hover {
+	text-decoration: underline;
 }
