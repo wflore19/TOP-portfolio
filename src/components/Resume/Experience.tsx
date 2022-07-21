@@ -17,7 +17,7 @@ const Experience = ({
 	logo,
 }: ExperienceProps) => {
 	return (
-		<div className="whole">
+		<div className="experience">
 			<div className="hoho">
 				<img className="logo" src={logo} alt="" />
 				<div>
