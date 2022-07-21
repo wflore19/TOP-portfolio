@@ -30,9 +30,9 @@ const Project = ({
 				</div>
 			</div>
 			<div className="description">{description}</div>
-			<div className="heru">
+			<a href={demo} target="_blank" rel="noreferrer" className="heru">
 				<img className="twitter-gif" src={gif} alt="" />
-			</div>
+			</a>
 
 			<div className="hehexd">
 				<a className="demo" href={demo} target="_blank" rel="noreferrer">
