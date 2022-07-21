@@ -12,7 +12,6 @@ export default function Mainframe() {
 			<WhoAmI />
 			<Skills />
 			<Projects />
-			<Resume />
 		</div>
 	);
 }
