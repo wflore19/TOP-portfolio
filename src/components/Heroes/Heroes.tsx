@@ -7,14 +7,14 @@ export default function Heroes() {
 			{/* <img src={imposter} alt="img" className="copy" /> */}
 
 			<div className="btns-list">
-				<a
+				{/* <a
 					className="btns"
 					href="https://docs.google.com/document/d/1YgyqVlHHdGI0bW5oVdtBjlB4vu_UHn_edhggokYSOIM/edit?usp=sharing"
 					target="_blank"
 					rel="noreferrer"
 				>
 					Resume
-				</a>
+				</a> */}
 				<a
 					className="btns"
 					href="https://www.linkedin.com/in/wilfredo-flores-666492173/"
@@ -31,14 +31,14 @@ export default function Heroes() {
 				>
 					Github
 				</a>
-				<a
+				{/* <a
 					className="btns"
 					href="https://www.youtube.com/c/WillFlores1"
 					target="_blank"
 					rel="noreferrer"
 				>
 					Youtube
-				</a>
+				</a> */}
 			</div>
 		</div>
 	);
