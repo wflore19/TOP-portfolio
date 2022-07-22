@@ -48,7 +48,7 @@ export default function Projects() {
 				logo={pp}
 				title="Minimalist Portfolio"
 				madeWith="React, Typescript, Tailwindcss"
-				description="Minimal portfolio style. Practice for responsive design, tailwindcss, and themes. Inpired by Takuya Matsuyama"
+				description="Minimal portfolio style. Practice for responsive design, tailwindcss, and themes. Inspired by Takuya Matsuyama"
 				gif="https://media.giphy.com/media/ZjCBYlg1uDtdUdbeYr/giphy.gif"
 				demo="https://portfolio-too.vercel.app/"
 				github="https://github.com/will-flores1/portfolio-too"
