@@ -17,7 +17,7 @@ export default function WhoAmI() {
 			</span>
 			<div className="text">
 				<div className="text">
-					I am web developmer / designer based in Maryland
+					I am web developer / designer based in Maryland
 				</div>
 				<div className="text">
 					I've taken{" "}
