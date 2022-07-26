@@ -17,7 +17,7 @@ export default function WhoAmI() {
 			</span>
 			<div className="text">
 				<div className="text">
-					I am web developer / designer based in Maryland
+					I am full stack developer / designer based in Maryland
 				</div>
 				<div className="text">
 					I've taken{" "}
@@ -47,12 +47,15 @@ export default function WhoAmI() {
 					</a>
 				</div>
 				<div className="text">
-					I build websites using Typescript, React/Nextjs, CSS, and Sanity
+					I love learning new tech, currently learning Redux.
+				</div>
+				<div className="text">
+					<b>Favorite tools:</b> Typescript, React, Next.js, and CSS.
 				</div>
 				<div className="text"></div>
 				<div className="text">
-					<b>Things that fire me up:</b> health, productivity, computers,
-					photography, and movies
+					<b>Things that fire me up:</b> health, productivity, Curb Your
+					Enthusiasm, photography, and movies
 				</div>
 				<hr />
 				<div className="text">
