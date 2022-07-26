@@ -1,27 +1,27 @@
 .nav-item:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .nav-item {
-  list-style: none;
-  text-decoration: none;
-  padding: 4px;
-  font-size: .88rem;
-  border-bottom: 1px solid rgba(138, 138, 138, 0.308);
-  color: rgb(112, 112, 112);
-  margin: 8px 0 8px 0;
-  font-weight: bold;
-  background-color: #fff;
-  border: none;
-  border-bottom: 1px solid #11150150;
+	list-style: none;
+	text-decoration: none;
+	padding: 4px;
+	font-size: 0.88rem;
+	border-bottom: 1px solid rgba(138, 138, 138, 0.308);
+	color: rgb(112, 112, 112);
+	margin: 8px 0 8px 0;
+	font-weight: bold;
+	background-color: #fff;
+	border: none;
+	border-bottom: 1px solid #11150150;
 }
 
 .nav-item:hover {
-  color: rgb(112, 112, 112, 0.608);
+	color: rgb(112, 112, 112, 0.608);
 }
 
 #nav-group {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
+	padding: 0 0 1rem 0;
+	display: flex;
+	flex-direction: column;
 }
