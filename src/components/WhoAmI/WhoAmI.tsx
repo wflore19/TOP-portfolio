@@ -20,7 +20,16 @@ export default function WhoAmI() {
 					I am full stack developer / designer based in Maryland
 				</div>
 				<div className="text">
-					I've taken{" "}
+					I discovered my passion for web development after taking{" "}
+					<a
+						href="https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money/"
+						target="_blank"
+						rel="noreferrer"
+						className="linkedText"
+					>
+						Web Design
+					</a>
+					, followed by{" "}
 					<a
 						href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
 						target="_blank"
@@ -29,41 +38,27 @@ export default function WhoAmI() {
 					>
 						CS50
 					</a>
+					. Currently finishing up{" "}
 					<a
 						href="https://www.theodinproject.com/"
 						target="_blank"
 						rel="noreferrer"
 						className="linkedText"
 					>
-						, The Odin Project
+						The Odin Project
 					</a>
-					<a
-						href="https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money/"
-						target="_blank"
-						rel="noreferrer"
-						className="linkedText"
-					>
-						, Web Design
-					</a>
+					.
 				</div>
 				<div className="text">
-					I love learning new tech, currently learning Redux.
+					I love learning new things, currently learning Redux & paddleboarding!
 				</div>
 				<div className="text">
-					<b>Favorite tools:</b> Typescript, React, Next.js, and CSS.
+					<b>Favorite tech:</b> Typescript, React, Next.js, and CSS.
 				</div>
 				<div className="text"></div>
 				<div className="text">
 					<b>Things that fire me up:</b> health, productivity, Curb Your
 					Enthusiasm, photography, and movies
-				</div>
-				<hr />
-				<div className="text">
-					If you would like to get in touch, please e-mail me at{" "}
-					<mark className="highlight">willflores1221@gmail.com</mark>. You might
-					also be interested in taking a look at my full array of skills, as
-					well as some of the projects I have completed by scrolling down this
-					page.
 				</div>
 			</div>
 		</div>
