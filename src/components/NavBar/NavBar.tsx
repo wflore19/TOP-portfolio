@@ -18,9 +18,9 @@ function NavBar() {
 		// 		.querySelector(".experience")!
 		// 		.scrollIntoView({ behavior: "smooth" });
 		// }
-		else if (e.target.textContent === "Contact") {
-			document.querySelector(".whoami")!.scrollIntoView({ behavior: "smooth" });
-		}
+		// else if (e.target.textContent === "Contact") {
+		// 	document.querySelector(".whoami")!.scrollIntoView({ behavior: "smooth" });
+		// }
 	}
 
 	return (
@@ -40,9 +40,9 @@ function NavBar() {
 			{/* <button className="nav-item" onClick={handleLinkTouch}>
 				Resume
 			</button> */}
-			<button className="nav-item" onClick={handleLinkTouch}>
+			{/* <button className="nav-item" onClick={handleLinkTouch}>
 				Contact
-			</button>
+			</button> */}
 		</div>
 	);
 }
