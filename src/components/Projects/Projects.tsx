@@ -46,7 +46,7 @@ export default function Projects() {
 			/>
 			<Project
 				logo={pp}
-				title="Minimalist Portfolio"
+				title="Minimal Portfolio"
 				madeWith="React, Typescript, Tailwindcss"
 				description="Minimal portfolio. Used responsive design, tailwindcss, and light/dark mode. Design inspired by Takuya Matsuyama"
 				gif="https://media.giphy.com/media/ZjCBYlg1uDtdUdbeYr/giphy.gif"
