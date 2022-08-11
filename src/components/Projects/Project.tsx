@@ -38,9 +38,11 @@ const Project = ({
 				<a className="demo" href={demo} target="_blank" rel="noreferrer">
 					Demo
 				</a>
-				<a className="github" href={github} target="_blank" rel="noreferrer">
-					Source Code
-				</a>
+				{github && (
+					<a className="github" href={github} target="_blank" rel="noreferrer">
+						Source Code
+					</a>
+				)}
 			</div>
 		</div>
 	);
