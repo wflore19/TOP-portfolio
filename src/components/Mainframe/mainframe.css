@@ -1,8 +1,7 @@
 .Mainframe {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
 }
