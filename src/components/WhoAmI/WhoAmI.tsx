@@ -16,9 +16,7 @@ export default function WhoAmI() {
 				s
 			</span>
 			<div className="text">
-				<div className="text">
-					I am full stack developer / designer based in Maryland
-				</div>
+				<div className="text">I am a frontend developer based in Maryland</div>
 				<div className="text">
 					I discovered my passion for web development after taking{" "}
 					<a
