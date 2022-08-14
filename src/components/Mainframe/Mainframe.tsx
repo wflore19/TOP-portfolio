@@ -9,7 +9,7 @@ export default function Mainframe() {
 	return (
 		<div className="Mainframe">
 			<Heroes />
-			<WhoAmI />
+			{/* <WhoAmI /> */}
 			<Skills />
 			<Projects />
 		</div>
