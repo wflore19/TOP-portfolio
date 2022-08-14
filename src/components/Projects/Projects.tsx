@@ -37,6 +37,15 @@ export default function Projects() {
 			/>
 			<Project
 				logo={pp}
+				title="Tenzies Game"
+				madeWith="React"
+				description="Roll the dice, hold die to match all the dice"
+				gif="https://media.giphy.com/media/KaMiJyanP9IbdJLZ6F/giphy.gif"
+				demo="https://tenzies-game-olive.vercel.app/"
+				github="https://github.com/will-flores1/tenzies-game"
+			/>
+			<Project
+				logo={pp}
 				title="WebChat Landing Page"
 				madeWith="Figma & Webflow CMS"
 				description="Landing page for an imaginary web application. Designed using graphic design concepts like layout, typography, hierarchy, and design tricks"
@@ -50,6 +59,7 @@ export default function Projects() {
 				description="Minimal portfolio. Used responsive design, tailwindcss, and light/dark mode. Design inspired by Takuya Matsuyama"
 				gif="https://media.giphy.com/media/ZjCBYlg1uDtdUdbeYr/giphy.gif"
 				demo="https://portfolio-too.vercel.app/"
+				github="https://github.com/will-flores1/portfolio-too"
 			/>
 			<Project
 				logo={pp}
