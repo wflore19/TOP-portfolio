@@ -28,9 +28,9 @@ function NavBar() {
 			<button className="nav-item" onClick={handleLinkTouch}>
 				Home
 			</button>
-			<button className="nav-item" onClick={handleLinkTouch}>
+			{/* <button className="nav-item" onClick={handleLinkTouch}>
 				About
-			</button>
+			</button> */}
 			<button className="nav-item" onClick={handleLinkTouch}>
 				Skills
 			</button>
