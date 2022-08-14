@@ -29,7 +29,7 @@ const Project = ({
 					<div className="made-with">{madeWith}</div>
 				</div>
 			</div>
-			<div className="description">{description}</div>
+			{/* <div className="description">{description}</div> */}
 			<a href={demo} target="_blank" rel="noreferrer" className="heru">
 				<img className="twitter-gif" src={gif} alt="" />
 			</a>
