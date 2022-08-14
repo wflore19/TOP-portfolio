@@ -1,49 +1,50 @@
 #profile {
-  /* visibility: hidden; */
-  text-align: center;
-  min-width: 8rem;
-  width: min(14rem, 50%);
-  height: fit-content;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
-  border-radius: 8px;
-  padding: 1rem;
-  position:sticky;
-  top: 4rem;
-  /* position: absolute;
+	/* visibility: hidden; */
+	text-align: center;
+	min-width: 8rem;
+	width: min(14rem, 50%);
+	height: fit-content;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 0px 1px;
+	border-radius: 8px;
+	padding: 2rem 0;
+	position: sticky;
+	top: 4rem;
+	/* position: absolute;
   top: 4rem;
   left: 20vw;
   bottom: 6rem; */
 }
 
 img {
-  max-height: 12rem;
-  height: min(14rem, 100%);
-  max-width: 12rem;
-  width: min(14rem, 100%);
-  margin-bottom: .9rem;
+	max-height: 12rem;
+	height: min(14rem, 100%);
+	max-width: 12rem;
+	width: min(14rem, 100%);
+	margin-bottom: 0.9rem;
 }
 
 .name {
-  font-weight: bold;
-  font-size: clamp(.8rem, 2vw, 1.2rem);
+	font-weight: bold;
+	font-size: clamp(0.8rem, 2vw, 1.2rem);
 }
 
 .title {
-  font-weight: 400;
-  font-size: clamp(.2rem, 1.5vw, .9rem);
+	font-weight: 400;
+	font-size: clamp(0.2rem, 1.5vw, 0.9rem);
+	margin-bottom: 1rem;
 }
 
 .cr {
-  padding-top: .2rem;
-  padding-bottom: 8rem;
-  font-size: .7rem;
-  font-weight: lighter;
+	padding-top: 0.2rem;
+	padding-bottom: 8rem;
+	font-size: 0.7rem;
+	font-weight: lighter;
 }
 
 @media (max-width: 688px) {
-  #profile {
-    position: fixed;
-    display: none;
-  }
+	#profile {
+		position: fixed;
+		display: none;
+	}
 }
