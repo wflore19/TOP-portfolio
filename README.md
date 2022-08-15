@@ -2,7 +2,7 @@
 
 A portfolio to display my skills and projects
 
-Website: [Link](https://https://www.wilfredoflores.dev/)
+Website: [Link](https://www.wilfredoflores.dev/)
 
 ## Screenshot
 
