@@ -28,21 +28,12 @@ function NavBar() {
 			<button className="nav-item" onClick={handleLinkTouch}>
 				Home
 			</button>
-			{/* <button className="nav-item" onClick={handleLinkTouch}>
-				About
-			</button> */}
 			<button className="nav-item" onClick={handleLinkTouch}>
 				Skills
 			</button>
 			<button className="nav-item" onClick={handleLinkTouch}>
 				Projects
 			</button>
-			{/* <button className="nav-item" onClick={handleLinkTouch}>
-				Resume
-			</button> */}
-			{/* <button className="nav-item" onClick={handleLinkTouch}>
-				Contact
-			</button> */}
 		</div>
 	);
 }
