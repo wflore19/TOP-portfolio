@@ -29,6 +29,15 @@ export default function Projects() {
 				/>
 				<Project
 					logo={pp}
+					title="Local Library"
+					madeWith="Javascript, HTML, CSS"
+					description="Add, remove, change status of read books"
+					gif="https://media.giphy.com/media/6qJgttpUXnHLPprucM/giphy.gif"
+					demo="https://will-flores1.github.io/library-local/"
+					github="https://github.com/will-flores1/library-local"
+				/>
+				<Project
+					logo={pp}
 					title="Minimalist Portfolio"
 					madeWith="React, Typescript, Tailwindcss"
 					description="Minimal portfolio. Used responsive design, tailwindcss, and light/dark mode. Design inspired by Takuya Matsuyama"
